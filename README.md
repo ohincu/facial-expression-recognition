@@ -36,9 +36,8 @@ Expanding the model to include all seven emotions would likely result in a drop 
 Improvements could be made with better labeling, higher-resolution training data, and improved lighting conditions.  
 However, one has to remember that certain emotions, e.g. "disgust," can even be hardly identified by humans.   
 
-![Alt text](accuracy.png)
-
-![Alt text](loss.png)
+![!\[Alt text\](accuracy.png)](notebook/accuracy.png)
+![!\[Alt text\](loss.png)](notebook/loss.png) 
 
 ### Ethical Considerations
 It's essential to stress that the collection and monitoring of facial data must be carried out ethically and with consent. 
