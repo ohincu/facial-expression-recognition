@@ -6,12 +6,15 @@ This project focuses on recognizing three primary facial expressions: anger, hap
 ## Data
 The dataset comprises of 48x48 pixel grayscale facial emages labeled by emotion/facial expression.  
 The emotions present in this dataset are put into 7 categories: angry, disgust, fear, happy, sad, surprise, neutral.  
+
+![](plots/emotions.png)
+
 The data is already split into training, validation and test data in the dataset.
 
 You can find the dataset via https://kaggle.com/competitions/challenges-in-representation-learning-facial-expression-recognition-challenge.
 originally curated by "Dumitru, Ian Goodfellow, Will Cukierski, Yoshua Bengio. (2013). Challenges in Representation Learning: Facial Expression Recognition Challenge. Kaggle."
 
-## Packages used  
+## Requirements
 * Data Manipulation: pandas, numpy
 * Data Visualization: matplotlib, scikitplot
 * ML: scikit-learn, tensorflow, keras
@@ -36,8 +39,8 @@ Expanding the model to include all seven emotions would likely result in a drop 
 Improvements could be made with better labeling, higher-resolution training data, and improved lighting conditions.  
 However, one has to remember that certain emotions, e.g. "disgust," can even be hardly identified by humans.   
 
-![!\[Alt text\](accuracy.png)](notebook/accuracy.png)
-![!\[Alt text\](loss.png)](notebook/loss.png) 
+![](plots/accuracy.png)
+![](plots/loss.png) 
 
 ### Ethical Considerations
 It's essential to stress that the collection and monitoring of facial data must be carried out ethically and with consent. 
